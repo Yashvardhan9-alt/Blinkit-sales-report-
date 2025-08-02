@@ -1,88 +1,72 @@
-BlinkIT Grocery Data Dashboard
+# 🛒 BlinkIT Grocery Sales Analysis Dashboard (Excel Project)
 
-Overview
-This project features an interactive Excel dashboard for grocery data analysis, designed to help stakeholders visualize sales trends, analyze product performance, and extract actionable business insights from BlinkIT’s sales operations.
+## 📌 Project Title
+**BlinkIT Grocery Data Analysis Dashboard using Excel**
 
-Features
-Comprehensive Data Analysis:
-Aggregates and visualizes grocery sales across multiple dimensions, including:
+## 📊 Overview
+This project presents a fully interactive and professional Excel dashboard built to analyze grocery sales data from BlinkIT (formerly Grofers). The data includes over 8,500 records of item-level sales, outlet characteristics, and product information. The goal is to uncover actionable insights that can help business decision-making in the retail and e-commerce domain.
 
-Item Type: e.g., Fruits & Vegetables, Dairy, Snack Foods, etc.
+It is ideal for showcasing data visualization, Excel analytics skills, and insight-driven storytelling.
 
-Outlet Characteristics: Establishment year, location tier, size, and type.
+---
 
-Product Attributes: Fat content, visibility, rating, and item weight.
+## 🎯 Objectives of the Project
+- Identify **top-performing products** and **low-performing categories**
+- Understand **sales trends** across **outlet types**, **locations**, and **years**
+- Analyze the **impact of item visibility, fat content, and weight** on sales
+- Create an interactive dashboard that helps explore different **KPIs** with filters
+- Demonstrate practical data analysis and dashboard-building skills in Excel
 
-Key Performance Indicators (KPIs):
+---
 
-Total Sales: ₹1,201,681.49
+## 📁 Dataset Information
 
-Average Sales per Item: ₹140.99
+- **Source:** BlinkIT Grocery dataset (cleaned and enhanced)
+- **Total Records:** 8,523
+- **Fields Included:**
+  - Item Identifier, Item Type, Fat Content, Weight, Visibility
+  - Sales Amount, Ratings
+  - Outlet Type, Size, Location, Year of Establishment
 
-Number of Items: 8,523
+---
 
-Average Item Rating: 3.97
+## 📌 Key KPIs and Insights
 
-Sales Breakdown:
+| Metric | Value |
+|-------|--------|
+| 🧾 **Total Sales** | ₹1,201,681.49 |
+| 🔄 **Average Sales per Item** | ₹140.99 |
+| 🧺 **Unique Products** | 1,559 |
+| 🏬 **Total Outlets** | 10 |
+| ⭐ **Average Rating** | 3.97 |
+| 🥗 **Most Sold Item Type** | Fruits and Vegetables |
+| 🏪 **Most Common Outlet Type** | Supermarket Type1 |
+| 👀 **Average Item Visibility** | 6.61% |
+| ⚖️ **Average Item Weight** | 12.86 kg |
 
-By fat content (Low Fat, Regular)
+---
 
-By item type (with top performers and sales contribution)
+## 📈 Dashboard Features
 
-By outlet tier, size, type, and year for trend analysis
+- Interactive **pivot charts** and **pivot tables**
+- Slicers to filter by:
+  - Item Type
+  - Outlet Type
+  - Year of Establishment
+- Visualizations:
+  - Sales by Item Type (Bar Chart)
+  - Sales Trend by Year (Line Graph)
+  - Outlet Sales Comparison (Stacked Bar)
+  - Sales Distribution (Pie Chart)
+- KPIs displayed using card visuals
 
-Product Rating Visualization:
-Average ratings by category and overall, indicating high-performing product areas.
+---
 
-Data Source
-The dashboard leverages a dataset from BlinkIT’s grocery sales records, including:
+## 🛠 Tools and Techniques Used
 
-Product-level sales data (item attributes, sales, ratings)
-
-Outlet details (geography, size, type, year of establishment)
-
-Visualizations
-Sales by Outlet Establishment Year: Line/bar charts to track trends from 2011–2022.
-
-Sales by Outlet Size/Type/Location: Comparative visuals to identify top-performing outlets.
-
-Category & Fat Content Analysis: Pie/bar charts for sales split by product type and nutritional label.
-
-Item Ratings: Average and distribution plots for consumer feedback.
-
-Usage
-Quick Start
-Download and open Copy-of-BlinkIT_Grocery_Data_Excel-1.xlsx in Microsoft Excel.
-
-Explore the dashboard tabs (Sheet1, Sheet2) for:
-
-Sales KPIs & summaries
-
-Interactive category breakdowns
-
-Filtered tables for specific outlet or product dimensions
-
-Customization
-Add new filters or pivot tables as needed.
-
-Update data sources to keep the dashboard current.
-
-Insights & Highlights
-Top Sales by Category:
-
-Fruits & Vegetables: ₹178,124
-
-Snack Foods: ₹175,434
-
-Household: ₹135,977
-
-Outlet Performance:
-
-Supermarket Type1 outlets dominate total sales.
-
-Medium and high outlet sizes outperform small ones.
-
-Product Feedback: Most items are rated above 4, signaling strong customer satisfaction.
-
-
-
+- Microsoft Excel 2016+
+- Pivot Tables and Pivot Charts
+- Data Slicers and Filters
+- Conditional Formatting
+- Power Query (for transformation and cleanup)
+- Chart Customization and KPI Card
